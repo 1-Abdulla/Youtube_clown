@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #0f0f0f;
+     overflow: hidden; /*Hide scrollbars */
+}
+
+#main_head {
+    width: 100%;
+    height: 56px;
+    /* background-color: #8d2525; */
+    padding: 0px 16px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main_head_left {
+    height: 100%;
+    width: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_icon_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    flex: 1;
+    height: 100%;
+}
+
+.menu_icon_box {
+    height: 24px;
+    width: 24px;
+}
+
+.menu_icon_container:hover {
+    background-color: rgba(15, 15, 15, 0.438);
+}
+
+.menu_icon {
+    width: 22px;
+    height: 22px;
+    padding: 2px;
+    color: white;
+}
+
+.youtube_logo_video_container {
+    height: 100%;
+    flex: 3;
+}
+
+.youtube_logo_video {
+    object-fit: contain;
+    cursor: pointer;
+}
+
+/* #main_head_center {
+    background-color: aliceblue;
+    height: 100%;
+    width: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_head_center_box{
+    width: 100%;
+    height: 90%;
+    background-color: #744e4e;
+
+    display: flex;
+} */
+
+#main_head_right {
+    height: 100%;
+    width: 10%;
+
+    display: flex;
+}
+
+.left_head_create_icon {
+    width: 97px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#create_button {
+    width: 90%;
+    height: 36px;
+    background-color: #ffffff1a;
+    color: white;
+    border-radius: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.left_head_bell_icon {
+    width: 40px;
+    /* background-color: #50c44c; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bellicon_box{
+    height: 24px;
+    width: 24px;
+    /* background-color: #5e6d0c; */
+}
+
+.left_head_profile {
+    width: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_box{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: purple;
+    text-align: center;
+    line-height: 32px;
+
+}

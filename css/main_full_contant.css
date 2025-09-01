@@ -1,0 +1,174 @@
+.main_full_contant{
+    width: 100%;
+    padding-top: 32px;
+    margin-right: 50px;
+    height: 100vh;
+
+    overflow-y: scroll;
+}
+
+.main_full_contant_box{
+    width: 100%;
+    margin-bottom: 90px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.recommended_div{
+    width: 100%;
+    height: 320px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.youtube_rec_vedio_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+
+.vedio_caption_div{
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.youtube_rec_vedio_box img{
+    width: 390px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.vedio_caption_profile{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: grey;
+    margin: 12px;
+}
+
+.caption_div{
+    font-size: 14px;
+    height: 100%;
+}
+
+.caption_div{
+    padding-right: 24px;
+}
+
+.caption_div h2{
+    font-size: 16px;
+    margin: 12px 0px 6px 0px;
+    color: #fff;
+}
+
+.caption_div p{
+    color: grey;
+}
+
+
+
+
+
+
+.shorts_div{
+    width: 100%;
+    height: 463px;
+    margin-top: 32px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.icons8-youtube-shorts{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8px;
+}
+
+.shorts_div h2{
+    margin: 0px 0px 16px 8px;
+    color: #fff;
+}
+
+.icons8-youtube-shorts img{
+    width: 24px;
+    height: 24px;
+    margin-top: 4px;
+}
+
+
+.shorts{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.shorts div{
+    height: 100%;
+    width: 256px;
+}
+
+.shorts_video_box img{
+    height: 384px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.shorts_video_box div{
+    height: 64px;
+    width: 100%;
+    padding: 8px 32px 0px 0px;
+}
+
+.shorts_video_box div h2{
+    color: white;
+    font-size: 16px;
+    margin: 0px;
+    margin-bottom: 6px;
+}
+
+.shorts_video_box div p{
+    color: grey;
+    font-size: 14px;
+}
+
+
+
+.more_vidoe{
+    width: 100%;
+    height: fit-content;
+    margin-top: 32px;
+    padding-top: 32px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.youtube_more_vedio_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.youtube_more_vedio_box img{
+    width: 390px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.youtube_more_vedio_box .vedio_caption_div{
+    margin-bottom: 32px;
+}
