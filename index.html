@@ -24,6 +24,12 @@
 </head>
 
 <body>
+
+    <div id="pop-up">
+        <p>This is a clone of youtube and this can be displayed only in large screen ( minimum 1800px computers). this is made for learning purpose.</p>
+        <img src="./assets/icons/close.png" alt="" id="close">
+    </div>
+
     <header>
         <div id="main_head">
             <div id="main_head_left">
@@ -658,6 +664,19 @@
 
         </div>
     </main>
+
+
+
+
+    <script>
+        const popUp = document.getElementById("pop-up");
+        const close = document.getElementById("close");
+
+        close.addEventListener("click", () => {
+            popUp.style.display = "none";
+        })
+
+    </script>
 </body>
 
 </html>
